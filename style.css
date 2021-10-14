@@ -1,0 +1,54 @@
+body{
+
+}
+
+form{
+	
+	border: 1px #003566 solid;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px 10px 10px 10px;
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+input{
+	
+	text-align: center;
+	margin-top: 20px;
+
+}
+label{
+
+
+	
+}
+
+.submit{
+
+	color: white;
+	background-color: #003566;
+	width: 90%;
+
+}
+nav{
+	background: black;
+}
+.td__viene{
+
+	color: #ffffff;
+	background-color: #0d850d;
+}
+
+.td__noViene{
+
+	color: #ffffff;
+	background-color: #600000;
+}
+
+.td__noHay{
+
+	color: #ffffff;
+	background-color: #404040;
+}
