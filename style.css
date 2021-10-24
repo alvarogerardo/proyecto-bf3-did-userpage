@@ -1,11 +1,58 @@
-body{
+nav{
+	background: black;
+}
+.nav__img-logo{
 
+	width: 40%;
+	height: 40%;
+}
+
+.main-container{
+
+	border: 1px #003566 solid;
+	border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 10% 10%;
+
+
+}
+
+.main-container__encabezado{
+
+	display: inline;
+}
+
+.main-container__form-container{
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+
+
+}
+
+.flex-item{
+
+	min-width: 150px;
+
+}
+
+.div-candado{
+
+	text-align: center;
+
+}
+
+.div-formulario{
+
+	width: 60%;
 }
 
 form{
 	
 	display: flex;
-	width: 190px;
 	height: 200px;
 	align-items: center;
 	flex-direction: column;
@@ -14,70 +61,86 @@ form{
 }
 input{
 
-margin-bottom: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	border: 1px solid #505050;
+
 
 }
 
-.submit{
+span{
 
-	color: white;
-	background-color: #003566;
-	width: 90%;
-
-}
-nav{
-	background: black;
-}
-.td__viene{
-
-	color: #ffffff;
-	background-color: #0d850d;
-}
-
-.td__noViene{
-
-	color: #ffffff;
-	background-color: #600000;
-}
-
-.td__noHay{
-
-	color: #ffffff;
-	background-color: #404040;
-}
-
-.form__container{
-
-	border: 1px #003566 solid;
-	border-radius: 10px 10px 10px 10px;
-	display: flex;
-	max-width: 500px;
-	justify-content: center;
-	flex-wrap: wrap-reverse;
-	align-items: center;
-
-}
-.flex-item{
-
-	justify-content: center;
-	min-width: 190px;
-	flex-shrink: 0;
-
-}
-.img-candado{
-
-	width: 100%;
-	height: 100%;
+	text-align: center;
+	padding: 10px 0;
 	
+}
+
+.div-candado__img-candado{
+
+	width: 50%;
+	height: 50%;
+
 }
 label{
 
 	color: #003566;
 }
 
-.img-logo{
-
-	width: 40%;
-	height: 40%;
+.form__botonera{
+	
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #505050;
+	width: 80%;
 }
+
+.submit{
+
+	background-color: #fff;
+	width: 50%;
+	height: 100%;
+
+}
+
+.span-usuario{
+
+	width: 50%;
+	text-align: center;
+	height: 50%;
+}
+
+.submit:hover{
+
+	background-color: #eee;
+
+}
+
+.span-usuario:hover{
+
+	background-color: #eee;
+}
+
+input:focus{
+
+	background-color: #eee;
+}
+
+@media only screen and (max-width: 200px){
+
+	.nav__img-logo{
+
+		width: 100%;
+		height: 100%;
+	}
+	.main-container{
+
+		margin: 5% 0;
+	}
+	.div-candado{
+
+		padding-top: 10px;
+	}
+}
+
+
 
