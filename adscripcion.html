@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adscripción</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="adscripcion.css">
+</head>
+<body>
+
+	<div class="main-container flex-container">
+		
+		<div class="main-container__aside">
+			<aside class="flex-container col"> 
+				<h1 class="aside__title">ADSCRIPCIÓN</h1>
+				
+				<div class="aside__user-image-container flex-container">
+					<img src="images/usuario.png" alt="" class="user-image-container__image">
+				</div>	
+				
+				<p class="aside__username">Daniela</P>
+			
+				<span class="aside__span flex-container">
+					<a href="" class="links edit-user__text">EDITAR USUARIO</a>
+					<img src="images/configurar.png" alt="" class="edit-user__icon">
+ 				</span>
+
+				<span class="aside__span flex-container">
+					<a href="" class="links">PROFESORES</a>
+				</span>
+
+				<span class="aside__span flex-container">
+					<a href="" class="links">CLASES</a>
+				</span>
+			</aside>			
+		</div>
+
+		
+		
+		<div class="main-container__main-content">
+			
+			<nav class="main-content__nav flex-container">
+				
+				<img src="images/logo.png" alt="" class="nav__image">
+				<div class="nav__text flex-container">
+					<p class="nav__welcome">VIENVENIDA Daniela</p>
+					<a href="" class="nav__exit">salir</a>
+				</div>	
+			
+			</nav>
+
+			
+			<section class="main-section flex-container col">
+				
+				 	<p class="titles">Añadir Profesor</p>
+			
+				<form action="" class="form-container__form flex-container col">
+					
+					<div class="inputs flex-container">
+						<label for="nombre">Nombre:</label>
+						<input type="text" name="nombre" required class="inputs__entry">
+					</div>
+					
+					<div class="inputs flex-container">			
+						<label for="apellido">Apellido:</label>
+						<input type="text" name="apellido" required class="inputs__entry">
+					</div>
+					
+					<input type="submit" value="Añadir" class="form__send">
+				
+				</form>
+			
+			</section>
+	
+			<section class="main-section section__table">
+				<p class="titles">Lista de profesores</p>
+
+				<table class="teacher-list__teacher-table">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Nombre</th>
+							<th>Apellido</th>
+							<th></th>
+						</tr>
+					</thead>	
+						<tr class="teacher-table__rows">
+							<td>1</td>
+							<td>Diego</td>
+							<td>Rodriguez</td>
+							<td>
+								<a href="">editar</a>
+								<img src="Images/editar.png" alt="" class="teacher-table__icon">
+								<a href="">Borrar</a>
+								<img src="Images/error.png" alt=""class="teacher-table__icon">
+							</td>
+						</tr>
+
+				</table>
+			</section>
+		
+		</div>
+	
+	
+	</div>
+	
+</body>
+</html>
