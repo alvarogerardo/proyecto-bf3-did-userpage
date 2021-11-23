@@ -6,54 +6,56 @@
 	<title>Adscripción</title>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="adscripcion.css">
+	<link rel="stylesheet" href="aside_y_nav.css">
 </head>
 <body>
 
-	<div class="main-container flex-container">
+	
+	<aside class="aside"> 
+		<h1 class="aside__title">ADSCRIPCIÓN</h1>
+				
+		<img src="images/usuario.png" class="aside__user-image">	
+				
+		<p class="aside__username">Daniela</P>
+			
+		<div class="edit-user-container">
+			<span class="aside__span">
+				<a href="" class="links edit-user__text">EDITAR USUARIO</a>
+ 			</span>
+ 			<img src="images/configurar.png" alt="" class="edit-user__icon">
+ 		</div>
 		
-		<div class="main-container__aside">
-			<aside class="flex-container col"> 
-				<h1 class="aside__title">ADSCRIPCIÓN</h1>
+		<span class="aside__span">
+			<a href="" class="links">PROFESORES</a>
+		</span>
+
+		<span class="aside__span">
+			<a href="" class="links">MATERIAS</a>
+		</span>
+
+		<span class="aside__span">
+			<a href="" class="links">GRUPOS</a>
+		</span>		
+	</aside>			
+	
+	<nav class="nav">
 				
-				<div class="aside__user-image-container flex-container">
-					<img src="images/usuario.png" alt="" class="user-image-container__image">
-				</div>	
-				
-				<p class="aside__username">Daniela</P>
+		<a href="" class="links nav-logo-link"><img src="images/logo.png" alt="" class="nav__image"></a>
 			
-				<span class="aside__span flex-container">
-					<a href="" class="links edit-user__text">EDITAR USUARIO</a>
-					<img src="images/configurar.png" alt="" class="edit-user__icon">
- 				</span>
-
-				<span class="aside__span flex-container">
-					<a href="" class="links">PROFESORES</a>
-				</span>
-
-				<span class="aside__span flex-container">
-					<a href="" class="links">CLASES</a>
-				</span>
-			</aside>			
-		</div>
-
+		<div class="nav__text">
+			<p class="nav__welcome">BIENVENIDA Daniela</p>
+			<a href="" class="links nav__exit">salir</a>
+		</div>	
+			
+	</nav>	
 		
 		
-		<div class="main-container__main-content">
 			
-			<nav class="main-content__nav flex-container">
+		<section class="main-section flex-container col">
 				
-				<img src="images/logo.png" alt="" class="nav__image">
-				<div class="nav__text flex-container">
-					<p class="nav__welcome">VIENVENIDA Daniela</p>
-					<a href="" class="nav__exit">salir</a>
-				</div>	
-			
-			</nav>
+		 	<article>
 
-			
-			<section class="main-section flex-container col">
-				
-				 	<p class="titles">Añadir Profesor</p>
+		 		<p class="titles">Añadir Profesor</p>
 			
 				<form action="" class="form-container__form flex-container col">
 					
@@ -67,13 +69,13 @@
 						<input type="text" name="apellido" required class="inputs__entry">
 					</div>
 					
-					<input type="submit" value="Añadir" class="form__send">
+				<input type="submit" value="Añadir" class="form__send">
 				
-				</form>
-			
-			</section>
+			</form>
+			</article>
 	
-			<section class="main-section section__table">
+	
+			<article>
 				<p class="titles">Lista de profesores</p>
 
 				<table class="teacher-list__teacher-table">
@@ -85,25 +87,22 @@
 							<th></th>
 						</tr>
 					</thead>	
-						<tr class="teacher-table__rows">
-							<td>1</td>
-							<td>Diego</td>
-							<td>Rodriguez</td>
-							<td>
-								<a href="">editar</a>
-								<img src="Images/editar.png" alt="" class="teacher-table__icon">
-								<a href="">Borrar</a>
-								<img src="Images/error.png" alt=""class="teacher-table__icon">
-							</td>
-						</tr>
+					
+					<tr class="teacher-table__rows">
+						<td>1</td>
+						<td>Diego</td>
+						<td>Rodriguez</td>
+						<td>
+							<a href="" class="table-link">Editar</a>
+							<img src="Images/editar.png" alt="" class="teacher-table__icon">
+							<a href="" class="table-link">Borrar</a>
+							<img src="Images/error.png" alt=""class="teacher-table__icon">
+						</td>
+					</tr>
 
 				</table>
-			</section>
-		
-		</div>
-	
-	
-	</div>
-	
+			</article>
+		</section>
+				
 </body>
 </html>

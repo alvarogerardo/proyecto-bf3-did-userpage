@@ -10,32 +10,25 @@
 .main-container{
 
 	position: absolute;
-	top: 0;
-	bottom: 0;
-
-}
-
-.main-container__aside{
-
-	color: #fff;
-	width: 20vw;
+	top: 5%;
+	left: 25%;
 
 }
 
 .main-section{
 
+	position: absolute;
+	top: 8%;
+	left: 27%;
+	width: 70vw;
+	height: 80vh;
 	background-color: #fff;
-	width: 90%;
-	border: .1px solid #aaa;
+
+	border: 1px solid #aaa;
 	box-shadow: -1px 1px #ccc;
 	margin: 10px auto;
+ 
 
-}
-aside{
-
-	align-items: center;
-	height: 100%;
-	background-color: #001d3d;
 
 }
 
@@ -45,85 +38,6 @@ h1{
 	font-size: 20px;
 }
 
-.aside__user-image-container{
-
-	width: 50%;
-	height: 15%;
-	background-color: #fff;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-}
-
-.user-image-container__image{
-
-	width: 100%;
-	height: 100%;
-}
-
-.links{
-
-	color: #fff;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-.aside__span{
-
-	justify-content: space-evenly;
-	width: 100%;
-	margin-top: 20px;
-}
-
-.edit-user__text{
-
-	text-decoration: none;
-	font-size: 12px;
-}
-
-.edit-user__icon{
-
-	background-color: #001d3d;
-	border-radius: 50%;
-	margin-left: -20px;
-
-}
-
-.main-content__nav{
-
-	background-color: #000814;
-	color: #fff;
-}
-
-.nav__image{
-
-	width: 40%;
-	height: 40%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-.nav__text{
-
-	width: 100%;
-	justify-content: right;
-	align-items: center;
-}
-
-.nav__welcome{
-
-	padding-right: 15px;
-	font-size: 20px;
-}
-
-.nav__exit{
-
-	font-size: 24px;
-	color: #fff;
-	padding-right: 15px;
-
-}
 
 .titles{
 
@@ -186,6 +100,7 @@ table, th, td{
 	text-align: center;
 	border-right: 1px solid #aaa;
 	border-collapse: collapse;
+
 }
 th{
 
@@ -198,13 +113,17 @@ th{
 }
 
 th, td{
-
-	width: 25%;
+    
+    width: 20%;
 }
 
+.table-link{
+
+ color: blue !important; 
 
 
 
+}
 
 
 
