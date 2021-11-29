@@ -21,11 +21,7 @@
 	top: 8%;
 	left: 27%;
 	width: 70vw;
-	height: 80vh;
-	background-color: #fff;
-
-	border: 1px solid #aaa;
-	box-shadow: -1px 1px #ccc;
+	height: 90vh;	
 	margin: 10px auto;
  
 
@@ -119,10 +115,20 @@ th, td{
 
 .table-link{
 
- color: blue !important; 
+ 	color: blue !important; 
 
+}
 
+.teacher-list{
 
+	height: 60%;
+	overflow-y: auto;
+}
+article{
+
+	border: 1px solid #aaa;
+	box-shadow: -1px 1px #ccc;
+	margin-bottom: 5%;
 }
 
 
