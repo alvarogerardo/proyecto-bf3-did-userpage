@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Usuarios</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="aside.css">
+	<link rel="stylesheet" href="usuarios.css">
+</head>
+<body>
+	
+	<nav class="nav">
+				
+		<a href="" class="links nav-logo-link"><img src="images/logo.png" alt="" class="nav__image"></a>
+			
+		<div class="nav__text">
+			<p class="nav__welcome">BIENVENIDA Daniela</p>
+			<a href="" class="links nav__exit">salir</a>
+		</div>	
+			
+	</nav>
+
+	<aside class="aside"> 
+		<h1 class="aside__title">ADSCRIPCIÓN</h1>
+		
+		
+		<div class="user-image-container">		
+			<img src="images/usuario.png" class="aside__user-image">	
+		</div>		
+	
+		<p class="aside__username">Daniela</P>
+
+		<div class="edit-user-container">
+			<span class="aside__span">
+				<a href="" class="links edit-user__text">EDITAR USUARIO</a>
+ 			</span>
+ 			<img src="images/configurar.png" class="edit-user__icon">
+ 		</div>
+		
+		<span class="aside__span">
+			<a href="" class="links">PROFESORES</a>
+		</span>
+
+		<span class="aside__span">
+			<a href="" class="links">MATERIAS</a>
+		</span>
+
+		<span class="aside__span">
+			<a href="" class="links">CLASES</a>
+		</span>
+	</aside>		
+
+	<section>
+		<article>
+			<header>
+				<p class="header__title">Cambiar Contraseña</p>
+			</header>
+
+			<form action="post" method="">
+				<div>
+					<label for="current-password">Contraseña Actual</label>
+					<input type="password" id="current-password" required minlength="8" placeholder="-contraseña actual-" class="entry-input">
+				</div>
+				<div>
+					<label for="new-password">Nueva Contraseña</label>
+					<input type="password" id="new-password" required minlength="8" placeholder="-nueva contraseña-" class="entry-input">
+				</div>
+				<input type="submit" value="Confirmar" class="form__send">
+            </form>
+		</article>
+	</section>
+</body>
+</html>
