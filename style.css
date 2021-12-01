@@ -141,6 +141,11 @@ article{
 	text-decoration: none;
 }
 
+.blue-text{
+
+	color: #003566;
+}
+
 .blue-background{
 
 	background-color: #003566;
@@ -207,7 +212,7 @@ article{
 
 .article__table{
 
-	margin: 5px 0 5px 10px;
+	margin: 5px auto;
 }
 
 .table__th,
@@ -250,4 +255,128 @@ article{
 	margin: 5px 10px;
 
 }
-/*--------------------------------------*/
+/*---------------LOGIN-----------------------*/
+.login-container{
+
+	border: 1px #003566 solid;
+	border-radius: 10px 10px 10px 10px;
+	margin: 10% 10%;
+}
+
+.login-container__form-container{
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	width: 100%;
+}
+
+.div-candado{
+
+	text-align: center;
+}
+
+.div-formulario{
+
+	width: 60%;
+}
+
+.div-candado,
+.div-formulario,
+.form-botonera{
+
+	min-width: 150px;
+}
+
+.login-form{
+
+	display: flex;
+	height: 200px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.div-candado__img-candado{
+
+	width: 50%;
+	height: 50%;
+}
+
+.login-form__buttons{
+	
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #505050;
+	width: 80%;
+}
+
+.login-input{
+
+	margin-bottom: 20px;
+	width: 80%;
+	border: 1px solid #505050;
+}
+
+.login-input:focus{
+
+	background-color: #eee;
+}
+
+.login-span{
+
+	text-align: center;
+	padding: 10px 0;
+}
+
+.span-user{
+
+	width: 50%;
+	height: 50%;
+}
+
+.login-submit{
+
+	background-color: #fff;
+	width: 50%;
+	height: 100%;
+	border: none;
+	border-right: 1px solid #aaa;
+}
+
+.form-label{
+
+	color: #003566;
+}
+
+@media only screen and (max-width: 400px){
+
+	.nav__img-logo{
+
+		width: 100%;
+		height: 100%;
+	}
+	.login-container{
+
+		margin: 5% 5%;
+	}
+	.div-candado{
+
+		margin-top: 40px;
+	}
+	
+	#nombre,
+	#password,
+	.login-form__buttons{
+
+		width: 100%;
+	}
+}
+
+/*-----------------------------*/
+
+#description-label{
+
+	font-size: 12px;
+}
