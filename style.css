@@ -380,3 +380,68 @@ article{
 
 	font-size: 12px;
 }
+
+/*-----descripcion-grupos---------*/
+
+.deployable{
+
+	position: relative;
+	margin: 5px auto;
+
+}
+
+.deployable__title{
+
+	background-color: #001d3d;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.deployed{
+
+	display: none;
+	height: 5vh;
+	position: absolute;	
+	z-index: 1;
+	width: 100%;
+	top: 50%;
+
+}
+
+.deployable:hover{
+
+	border: 1px solid #003566;
+	border-top: none;
+	height: 15vh;
+}
+.deployable:hover .deployed{
+
+	display: inline-flex;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.deployed__icon{
+
+	width: 10%;
+}
+
+.deployed-text{
+
+	font-size: 18px;
+	display: inline;
+}
+
+.deployed-content{
+
+	display: inline-block;
+	width: 30%;
+}
+
+.inputs__select{
+
+	width: 40vw;
+	text-align: center;
+	margin: 5px auto;
+}
