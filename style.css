@@ -1,0 +1,236 @@
+.flex-container{
+
+	display: flex;
+}
+.col{
+
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav{
+
+	height: 5vh;
+	background-color: #000814;
+	justify-content: space-between;
+	display: flex;
+
+}
+
+.nav__text{
+
+	margin-right: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.nav__welcome{
+
+	margin: 10px;
+}
+.nav__exit{
+
+	padding-right: 15px;
+}
+
+.nav__exit:visited{
+
+	color: #fff;
+}
+
+.aside{
+
+	background-color: #000b3b;
+	width: 25vw;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.aside__user-image{
+
+	width: 30%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.user-image-container{
+
+	text-align: center;
+}
+
+.aside__title{
+
+	font-size: 150%;
+	margin: 10px 10px;
+}
+
+
+
+.aside__span{
+
+	margin: 10px;
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+
+}
+
+.aside__span:hover{
+
+	background-color: #003566;
+}
+
+.edit-user__icon{
+
+	background-color: #001d3d;
+	border-radius: 50%;
+	height: 40%;
+	position: relative;
+	top: 50%;
+	bottom: 50%;
+	transform: translate(-50%,-50%);
+	right: 10%;
+}
+.edit-user-container{
+
+	display: flex;
+	width: 100%;
+}
+
+.edit-user-container:hover{
+
+	background-color: #003566;
+}
+
+.links:visited{
+
+	color: #fff;
+}
+
+.right-side-section{
+
+	position: absolute;
+	left: 30vw;
+	top: 10vh;
+	width: 65vw;
+	height: 85vh;
+	
+}
+
+article{
+
+	border: 1px solid #aaa;
+	margin-bottom: 5vh;
+	box-shadow: -2px 2px #ccc;
+
+}
+
+.article-title{
+
+	margin-top: 0px;
+	padding: 5px 15px;
+}
+
+.white-text{
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.blue-background{
+
+	background-color: #003566;
+}
+
+.font-18{
+
+	font-size: 18px;
+	font-weight: bold;
+}
+.font-24{
+
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.overflow__icon{
+
+	width: 12px;	
+}
+
+.input-label{
+
+	width: 60px;
+	height: 20px;
+	margin-right: 20px;
+	font-weight: bolder;
+}
+
+.inputs{
+
+	display: inline-flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: 5px;	
+}
+
+.input__entry{
+
+	width: 70%;
+}
+
+.form__submit{
+
+	padding: 5px 15px;
+	margin: 10px;
+}
+
+.overflow-article{
+
+	height: 60%;
+	overflow-y: auto;	
+}
+
+.article__table,
+ .table__th,
+  .table__td{
+
+	text-align: center;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-collapse: collapse;
+}
+
+.article__table{
+
+	margin: 5px 0 5px 10px;
+}
+
+.table__th,
+.table__td{
+
+	width: 20%;
+	padding: 5px;
+}
+
+.table__th{
+
+	border-bottom: 1px solid #aaa;
+}
+
+.table-link{
+
+ 	color: blue; 
+}
+
+.table-link:visited{
+
+	color: blue;
+}
+
+
+
