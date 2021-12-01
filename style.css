@@ -405,7 +405,7 @@ article{
 	position: absolute;	
 	z-index: 1;
 	width: 100%;
-	top: 50%;
+	top: 30%;
 
 }
 
@@ -413,7 +413,7 @@ article{
 
 	border: 1px solid #003566;
 	border-top: none;
-	height: 15vh;
+	height: 20vh;
 }
 .deployable:hover .deployed{
 
@@ -502,13 +502,6 @@ article{
 	border-radius: 0%;
 }
 
-h1,h2{
-
-	color: #fff;
-	margin: 5px;
-
-}
-
 .card-section{
 
 	position: absolute;
@@ -569,4 +562,42 @@ h1,h2{
 	right: 5%;
 	bottom: -5%;
 
+}
+.schedule-table{
+
+	border-collapse: collapse;
+	border: 2px solid #003566;
+	margin: 5% auto;
+
+}
+
+.schedule-table__th,
+.schedule-table__td{
+
+	border: 1px solid #aaa;
+	padding: 10px;	
+}
+.schedule-table__th{
+
+	background-color: #003566;
+	color: #fff;
+}
+
+.schedule-table__td{
+
+	color: #003566;
+	font-weight: bold;
+	border-color: #003566;
+}
+caption{
+
+	color: #fff;
+	background-color: #001d3d;
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 20px 10px;
+}
+.hora{
+
+	font-size: 24px;
 }
